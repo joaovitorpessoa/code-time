@@ -15,15 +15,15 @@ Code Time é uma aplicação que visa desocobrir o horário em que o programador
 
 ## 🚀 Tecnologias utilizadas
 
-- [""](/docs/img/react.png)[ReactJS](https://pt-br.reactjs.org/)
-- [""](/docs/img/typescript.png)[TypeScript](https://www.typescriptlang.org/)
-- [""](/docs/img/styled-components.png)[Styled-Components](https://styled-components.com/)
-- [""](/docs/img/nivo.png)[Nivo](https://nivo.rocks/)
-- [""](/docs/img/axios.png)[Axios](https://axios-http.com/)
+- <img align="left" width="23px" src="/docs/img/react.png"></img>[ReactJS](https://pt-br.reactjs.org/)
+- <img align="left" width="23px" src="/docs/img/typescript.png"></img>[TypeScript](https://www.typescriptlang.org/)
+- <img align="left" width="23px" src="/docs/img/styled-components.png"></img>[Styled-Components](https://styled-components.com/)
+- <img align="left" width="23px" src="/docs/img/nivo.png"></img>[Nivo](https://nivo.rocks/)
+- <img align="left" width="23px" src="/docs/img/axios.png"></img>[Axios](https://axios-http.com/)
 
 ## 💡 Resultado
 
-!
+! [""](/docs/gif/results.gif)
 
 ## 🏃 Uso
 
