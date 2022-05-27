@@ -1,0 +1,74 @@
+:root {
+  --black: #000000;
+  --background-primary: #ecf1f8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 16px (root) * 0.625 = 10px = 1rem */
+  font-size: 62.5%;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background: var(--background-primary);
+}
+
+body {
+  font: 1.4rem "Roboto", sans-serif;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+*,
+button,
+input {
+  border: 0;
+  background: none;
+  color: var(--black);
+  transition: color 200ms ease-out;
+}
+
+ul {
+  list-style: none;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  margin: 0 auto;
+  width: 70vw;
+  height: max-content;
+}
+
+#_1 {
+  height: 40vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+form {
+  width: 60%;
+  margin: 2rem 0;
+}
+
+form input {
+  box-shadow: 0 0 3px #4b9cdb;
+  width: 100%;
+  height: 5rem;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
