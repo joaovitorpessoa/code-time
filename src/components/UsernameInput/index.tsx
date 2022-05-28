@@ -13,9 +13,13 @@ function UsernameInput({ setParentUsername }: Props) {
   }
 
   return (
-    <Formik initialValues={{ username: "" }} onSubmit={handleFormSubmit}>
+    <Formik
+      className={"usernameInput-container"}
+      initialValues={{ username: "" }}
+      onSubmit={handleFormSubmit}
+    >
       <Form>
-        <Field name={"username"} autocomplete={"off"} />
+        <Field name={"username"} autoComplete={"off"} />
       </Form>
     </Formik>
   );

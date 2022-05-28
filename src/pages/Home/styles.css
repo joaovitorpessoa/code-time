@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  margin: 0 auto;
+  width: 70vw;
+  height: max-content;
+}
+
+.app-container section {
+  height: 40vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
